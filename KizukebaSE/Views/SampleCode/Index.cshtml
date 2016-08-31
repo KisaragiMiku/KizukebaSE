@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<pre title="syntaxhighlighterを使用しない">
+function helloSyntaxHighlighter(){
+   	return "hi!";
+}
+</pre>
+
+<pre class="brush: js;" title="JavaScript">
+$(function()
+{
+    $('.test').addClass("text-danger");
+});
+</pre>
+
+<pre class="brush: csharp;" title="C#">
+public class SampleCodeController : Controller
+    {
+        //
+        // GET: /SampleCode/
+        public ActionResult Index()
+        {
+            return View();
+        }
+	}
+</pre>
+
+<pre class="brush: html;" title="html">
+<p>
+    @Html.ActionLink("表示名", "アクション", "コントローラー")
+</p>
+</pre>

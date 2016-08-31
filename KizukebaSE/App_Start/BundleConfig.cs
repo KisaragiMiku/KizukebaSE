@@ -26,6 +26,14 @@ namespace KizukebaSE
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //jQueryUI追加
+            bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
+           "~/Scripts/jquery-ui-{version}.js"));
+
+            bundles.Add(new StyleBundle("~/Content/jqueryui").Include(
+                      "~/Content/themes/base/jquery-ui.min.css",
+                      "~/Content/themes/base/all.css"));
         }
     }
 }
