@@ -321,7 +321,8 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\SampleCode\Index.cshtml" />
-    <Content Include="Views\Rule\Index.cshtml" />
+    <Content Include="Views\Rule\Version.cshtml" />
+    <Content Include="Views\Rule\Development.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

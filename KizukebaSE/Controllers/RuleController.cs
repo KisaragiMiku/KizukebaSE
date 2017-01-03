@@ -10,7 +10,12 @@ namespace KizukebaSE.Controllers
     {
         //
         // GET: /Rule/
-        public ActionResult Index()
+        public ActionResult Version()
+        {
+            return View();
+        }
+
+        public ActionResult Development()
         {
             return View();
         }
