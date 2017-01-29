@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>サンプルコード</h2>
+
+
+<pre class="brush: html;" title="リンクラベル">
+    @@Html.ActionLink("表示名", "アクション名", "コントローラー名")
+</pre>
+
+<hr />
+
+<pre class="brush: html;" title="リンクラベルをボタンにする">
+    @@Html.ActionLink("表示名", "アクション名", "コントローラー名", new{アクションに渡す値}, new{ @@class = "btn"})
+</pre>
+<ul>
+    <li>new {class = ""}でクラス属性を追加し、Bootstrapの"btn"でボタンにしている。</li>
+    <li>アクションに渡す値がない場合、nullを入れる。</li>
+</ul>
+
+<hr />
+
+<pre class="brush: html;" title="リンク先を新しいタブで表示">
+    @@Html.ActionLink("表示名", "アクション名", "コントローラー名", new {@@target = "_blank"})
+</pre>
+
+<hr />
+
+@*<pre title="syntaxhighlighterを使用しない">
+    function helloSyntaxHighlighter(){
+        return "hi!";
+    }
+    </pre>
+
+    <pre class="brush: js;" title="JavaScript">
+    $(function()
+    {
+        $('.test').addClass("text-danger");
+    });
+    </pre>
+
+    <pre class="brush: csharp;" title="C#">
+    public class SampleCodeController : Controller
+        {
+            //
+            // GET: /SampleCode/
+            public ActionResult Index()
+            {
+                return View();
+            }
+        }
+    </pre>*@
