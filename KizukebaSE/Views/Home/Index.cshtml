@@ -3,26 +3,17 @@
 }
 
 <div class="jumbotron">
-    <h1>きづいたら社内SEになっていた</h1>
+    <h1>きづいたら社内SEになっていた。。。</h1>
 </div>
 
 <div class="row">  
     <div class="col-md-4">
-        <h2>さんぷるこーど</h2>
-        <p>
-            勉強で学んだ数少ないコード達
-        </p>
-        @Html.ActionLink("りんく", "Index", "SampleCode", null, new { @class = "btn btn-default" })
+        <p>@Html.ActionLink("Sample Code", "Index", "SampleCode", null, new{ @class = "btn btn-default"})</p>
     </div>
     <div class="col-md-4">
-        <h2>るーる</h2>
-        <p>属人化、デスマーチ、スパゲッティコード防止</p>
-        @Html.ActionLink("ばーじょんかんり", "Version", "Rule", null, new { @class = "btn btn-default" })
-        @Html.ActionLink("かいはつてじゅん", "Development", "Rule", null, new { @class = "btn btn-default" })
+        <p>@Html.ActionLink("Rule", "Index", "Rule", null, new { @class = "btn btn-default"})</p>
     </div>
     <div class="col-md-4">
-        <h2>びぼーろく</h2>
-        <p>鳥頭の備忘録</p>
-        @Html.ActionLink("かみんぐすーん", "Index", "SampleCode", null, new { @class = "btn btn-default disabled" })
+        <p>@Html.ActionLink("Blog", "Index", "Blog", null, new { @class = "btn btn-default" })</p>
     </div>
 </div>
