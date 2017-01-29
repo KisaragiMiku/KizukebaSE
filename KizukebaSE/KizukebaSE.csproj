@@ -161,7 +161,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MemorandumController.cs" />
     <Compile Include="Controllers\RuleController.cs" />
     <Compile Include="Controllers\SampleCodeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -239,6 +241,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Icon\Home.png" />
     <Content Include="Image\gitRule.PNG" />
     <Content Include="Image\versionNumber.PNG" />
     <Content Include="Scripts\bootstrap.js" />
@@ -321,7 +324,14 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\SampleCode\Index.cshtml" />
+    <Content Include="Views\Rule\Version.cshtml" />
+    <Content Include="Views\Rule\Development.cshtml" />
+    <Content Include="Views\Memorandum\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\Blog2.cshtml" />
+    <Content Include="Views\Blog\Blog3.cshtml" />
     <Content Include="Views\Rule\Index.cshtml" />
+    <Content Include="Views\Blog\Blog1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
