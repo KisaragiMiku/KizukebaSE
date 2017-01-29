@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>ルール</h2>
+<div>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>最終更新日</th>
+            <th>項目</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2017.01.29</td>
+            <td>@Html.ActionLink("開発手順", "Development", "Rule")</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2017.01.29</td>
+            <td>@Html.ActionLink("バージョン管理", "Version", "Rule")</td>
+        </tr>
+    </table>
+</div>
+
+<p class="text-right">2017.01.28</p>
+

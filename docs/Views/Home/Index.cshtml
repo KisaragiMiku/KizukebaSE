@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>きづいたら社内SEになっていた。。。</h1>
+</div>
+
+<div class="row">  
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Sample Code", "Index", "SampleCode", null, new{ @class = "btn btn-default"})</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Rule", "Index", "Rule", null, new { @class = "btn btn-default"})</p>
+    </div>
+    <div class="col-md-4">
+        <p>@Html.ActionLink("Blog", "Index", "Blog", null, new { @class = "btn btn-default" })</p>
+    </div>
+</div>

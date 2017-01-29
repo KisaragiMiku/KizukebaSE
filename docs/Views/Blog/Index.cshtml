@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>ブログ</h2>
+<div>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>Id</th>
+            <th>最終更新日</th>
+            <th>タイトル</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2017.01.29</td>
+            <td>@Html.ActionLink("会社の手順書って必要ですかね？", "Blog1", "Blog")</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2017.01.28</td>
+            <td>@Html.ActionLink("会社の手順書通りに業務されていますか？", "Blog2", "Blog")</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2017.01.29</td>
+            <td>@Html.ActionLink("会社の手順書が読まれない原因って何ですかね？", "Blog3", "Blog")</td>
+        </tr>
+    </table>
+</div>
+
+<p class="text-right">2017.01.28</p>
+
